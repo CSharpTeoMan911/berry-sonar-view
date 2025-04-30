@@ -13,14 +13,21 @@ import "./styles.css";
 import reportWebVitals from "./reportWebVitals.js";
 
 import App from "./App.jsx";
+import Login from "./Components/Login.jsx";
 
 const rootRoute = createRootRoute({
   component: () => (
     <>
       <Outlet />
-      <TanStackRouterDevtools />
     </>
   ),
+
+});
+
+const authRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: "/login",
+  component: Login,
 });
 
 const indexRoute = createRoute({
@@ -29,7 +36,7 @@ const indexRoute = createRoute({
   component: App,
 });
 
-const routeTree = rootRoute.addChildren([indexRoute]);
+const routeTree = rootRoute.addChildren([indexRoute, authRoute]);
 
 const router = createRouter({
   routeTree,

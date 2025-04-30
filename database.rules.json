@@ -1,6 +1,6 @@
 {
   "rules": {
-    ".read": "now < 1748386800000",  
-    ".write": "now < 1748386800000" 
+    ".read": "auth.uid == 'CzW5MfpSGEd0qYUp9M5cBOr7I2J3'",  
+    ".write": false
   }
 }
