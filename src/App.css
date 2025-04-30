@@ -55,7 +55,7 @@ div.auth-container
   flex-direction: column;
   align-self: center;
   display: flex;
-  background: linear-gradient(90deg, rgba(245, 35, 95, 0.80) 0%, rgba(182, 28, 71, 0.80) 70%);
+  background: linear-gradient(90deg, rgba(245, 35, 95, 0.80) 0%, rgba(117, 19, 47, 0.8) 70%);
   justify-content: center;
   min-width: 200px;
   height: fit-content;
