@@ -1,8 +1,24 @@
 let authContainerInterval = null;
+
 let gradientFluctuationInterval = null;
 let gradientOffset = 70;
 let switch_offset = false;
 
+let canvasRenderingInterval = null;
+
+function canvasRendering() {
+
+}
+
+
+export function setCanvasRendering() {
+    try {
+        clearInterval(canvasRenderingInterval);
+        canvasRenderingInterval = null;
+      } catch {}
+    
+      canvasRenderingInterval = setInterval(canvasRendering, 10);
+}
 
 function gradientFluctuation() {
     if(switch_offset == false){
