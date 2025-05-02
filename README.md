@@ -7,6 +7,17 @@
   <img src="https://github.com/user-attachments/assets/1892a68c-c669-4ee7-ba68-c113863caf2d"/>
 </div>
 
+<br/>
+
+<div align=center>
+  <img src="https://github.com/user-attachments/assets/f4a817d8-6212-42cc-bf24-92f0419da7fe"/>
+</div>
+
+<br/>
+
+<div align=center>
+  <img src="https://github.com/user-attachments/assets/e7ce7ff8-e20f-406a-a289-d46e916f7cec"/>
+</div>
 
 
 # 🍓 BerrySonar View
