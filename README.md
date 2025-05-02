@@ -39,7 +39,7 @@
 - ⚛️ **React** (functional components + hooks)  
 - ☁️ **Firebase JS SDK** (Realtime Database)  
 - 🎨 **Canvas API** for custom radar graphics  
-- 🔧 **Vite** (or Create React App) for build tooling
+- 🔧 **Vite** + **Tanstack** (create-tsrouter-app) for build tooling
 
 ## 📐➰ Math & Trigonometry
 
