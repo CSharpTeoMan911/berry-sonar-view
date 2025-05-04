@@ -68,8 +68,9 @@ Firstly, the **Radar UI's** main shape is created. The program is calculating th
 
 Because the geometric shape is a semi-circle, which is half a circle, the inner angle of the shape is ```360° / 2 = 180°```. To draw the **radar UI sectors**, the application will perform a summation by incrementing the degree value by 30 until it reaches 180, with the starting value being 0. At each incrementation, the program will calculate the **x** and **y** coordinates in relation with the angle of the line to be drawn for the radar's sector. To do this, the program will calculate the radiant of each angle (```θ . (180 / π)```), and then perform the ```x = A + R cos(α)``` trigonometric function to calculate **x**, and ```y = B + R sin(α)``` trigonometric function to calculate **y**, where **A** is the semi-circle's point of origin **x** coordinate, **B** is the semi-circle's point of origin **y** coordinate, **R** is the semi-circle's radius, and **α**, is the current degree's radiant. This calculations will give the program the **x** and **y** coordinates of both line's ends, which the program will use to draw the lines by connecting them.  
 
+
 <div align=left>
-  <img src="https://github.com/user-attachments/assets/01e36f2f-b044-4d2f-ae6c-8d20abeeabea"/>
+  <img src="https://github.com/user-attachments/assets/c51414fe-d964-4cbb-8281-7b446caba73f"/>
 </div>
 
 <br/>
@@ -78,10 +79,11 @@ Because the geometric shape is a semi-circle, which is half a circle, the inner 
 
 ### 📍 Plotting Detected Objects on the Radar
 
+
 The [**BerrySonar**](https://github.com/CSharpTeoMan911/BerrySonar) **C#** server app that is running on the **RaspberryPi** is collecting the data in real-time from the ultrasonic sensor as well as the motor position in degrees and updating the data in **Firebase Real-Time Database**. The program, will then take the degree related data and render the radar ray at the specified position using the ```x = A + R cos(α)``` and ```y = B + R sin(α)``` trigonometric functions.
 
 <div align=left>
-  <img src="https://github.com/user-attachments/assets/072c5712-e639-4956-b30b-a17ce4ae55d4"/>
+  <img src="https://github.com/user-attachments/assets/4e983663-58b1-4a3a-9c7c-f5719c3257ac"/>
 </div>
 
 <br/>
