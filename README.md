@@ -70,7 +70,7 @@ Because the geometric shape is a semi-circle, which is half a circle, the inner 
 
 
 <div align=left>
-  <img src="https://github.com/user-attachments/assets/c51414fe-d964-4cbb-8281-7b446caba73f"/>
+  <img src="https://github.com/user-attachments/assets/a90834d7-433c-49d1-869d-12b025ee1cf4"/>
 </div>
 
 <br/>
@@ -82,8 +82,9 @@ Because the geometric shape is a semi-circle, which is half a circle, the inner 
 
 The [**BerrySonar**](https://github.com/CSharpTeoMan911/BerrySonar) **C#** server app that is running on the **RaspberryPi** is collecting the data in real-time from the ultrasonic sensor as well as the motor position in degrees and updating the data in **Firebase Real-Time Database**. The program, will then take the degree related data and render the radar ray at the specified position using the ```x = A + R cos(α)``` and ```y = B + R sin(α)``` trigonometric functions.
 
+
 <div align=left>
-  <img src="https://github.com/user-attachments/assets/4e983663-58b1-4a3a-9c7c-f5719c3257ac"/>
+  <img src="https://github.com/user-attachments/assets/8301b534-3160-4e70-aac5-6c3c46811c38"/>
 </div>
 
 <br/>
