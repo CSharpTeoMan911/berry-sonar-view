@@ -22,7 +22,7 @@
 
 # 🍓 BerrySonar View
 
-**BerrySonar View** is a React-based dashboard that turns live ultrasonic scan data from the BerrySonar Raspberry Pi into an interactive radar display. It listens to metadata (angle + distance) streamed to Firebase Realtime Database, uses trigonometry to compute each point’s (x, y) coordinates, and renders them in a smooth, radar-style canvas.
+**BerrySonar View** is a React-based dashboard that turns live ultrasonic scan data from the **[BerrySonar](https://github.com/CSharpTeoMan911/BerrySonar) Raspberry Pi backend** into an interactive radar display. It listens to metadata (angle + distance) streamed to Firebase Realtime Database, uses trigonometry to compute each point’s (x, y) coordinates, and renders them in a smooth, radar-style canvas.
 
 ---
 
